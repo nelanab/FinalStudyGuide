@@ -96,7 +96,7 @@ var questions = [
         "correctAnswer" : "True"
     },
     {
-        "question": "<script> tags are used to define JavaScript text", 
+        "question": "&#60;script&#62; tags are used to define JavaScript text", 
         "correctAnswer" : "True"
     },
     {
@@ -112,7 +112,7 @@ var questions = [
         "correctAnswer" : "True"
     },
     {
-        "question": "<link href='script.js'> is a valid way to import a JavaScript document", 
+        "question": "&#60;link href='script.js'&#62; is a valid way to import a JavaScript document", 
         "correctAnswer" : "False"
     },
     {
@@ -152,15 +152,15 @@ var questions = [
         "correctAnswer" : "True"
     },
     {
-        "question": "<image href='image.png' alt='image'> is a valid way to import an image into HTML", 
+        "question": "&#60;image href='image.png' alt='image'&#62; is a valid way to import an image into HTML", 
         "correctAnswer" : "False"
     },
     {
-        "question": "<!-- This is an HTML comment -->", 
+        "question": "&#60;!-- This is an HTML comment --&#62;", 
         "correctAnswer" : "True"
     },
     {
-        "question": "<!-- This is a JavaScript comment -->", 
+        "question": "&#60;!-- This is a JavaScript comment --&#62;", 
         "correctAnswer" : "False"
     },
     {
@@ -179,22 +179,70 @@ var questions = [
         "question" : "true and false are Boolean values",
         "correctAnswer" : "True"
     },
-    { //Question 30
-        "question" : "function can contain more than one statement that can be executes as a single unit",
+    { 
+        "question" : "Functions can contain more than one statement that can be executes as a single unit",
         "correctAnswer" : "True"
     },
     {
-        "question" : "",
-        "correctAnswer" : ""
+        "question" : "Function parameters are placed within curly brackets",
+        "correctAnswer" : "False"
     },
     {
-        "question" : "",
-        "correctAnswer" : ""
+        "question" : "A local variable is defined outside of a function",
+        "correctAnswer" : "False"
     },
     {
-        "question" : "",
-        "correctAnswer" : ""
+        "question" : "JavaScript is a strongly typed coding language",
+        "correctAnswer" : "False"
     },
+    {
+        "question" : "The content of the HTML element with the ID 'box' can be targeted using document.getElementByID('box').innerHTML;",
+        "correctAnswer" : "True"
+    },
+    {
+        "question" : "JavaScript functions are written as function = functionExample()",
+        "correctAnswer" : "False"
+    },
+    {
+        "question" : "if(x == 20) is a valid example of an if statement",
+        "correctAnswer" : "True"
+    },
+    {
+        "question" : "if(x != 20) is the correct way to write x is NOT equal to 20",
+        "correctAnswer" : "True"
+    },
+    {
+        "question" : "A for loop starts with for(x == 5; y++)",
+        "correctAnswer" : "False"
+    },
+    {
+        "question" : "var candy = ['Snickers', 'Nerds', 'M&Ms'] is the correct way to write a JavaScript array",
+        "correctAnswer" : "False"
+    },
+    {
+        "question" : "JavaScript is not the same as Java",
+        "correctAnswer" : "True"
+    },
+    {
+        "question" : "'var Candy' is a valid way of declaring a JavaScript variable",
+        "correctAnswer" : "True"
+    },
+    {
+        "question" : "JavaScript is not case-sensitive",
+        "correctAnswer" : "False"
+    },
+    {
+        "question" : "'.addEventListener('click', function()) adds an 'onclick' event listener to an element",
+        "correctAnswer" : "True"
+    },
+    {
+        "question" : "A function can only be called once",
+        "correctAnswer" : "False"
+    },
+    {
+        "question" : "getElementsByArray can retrieve a JavaScript arary",
+        "correctAnswer" : "False"
+    }
     
 ];
 
